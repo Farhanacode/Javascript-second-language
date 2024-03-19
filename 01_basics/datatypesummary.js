@@ -12,3 +12,9 @@ console.log(typeof myfunction);
 
 // primitive datatypes
 // 7 types --- string,null,number,bigint,boolean,symbol and undefined
+
+// +++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive),Heap(Non-primitive)
+
+let myYoutubename="farhanadotcom"
