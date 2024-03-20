@@ -11,6 +11,7 @@ const mysym=Symbol("grade")
     city:"gudur"
  }
 //  console.log(myuser.age);
+
 //  console.log(myuser["fullname"]);
  //console.log (myuser[mysym]);
 // console.log(myuser);
