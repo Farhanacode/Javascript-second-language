@@ -12,7 +12,7 @@ const mysym=Symbol("grade")
  }
 //  console.log(myuser.age);
 //  console.log(myuser["fullname"]);
- console.log myuser[mysym]);
+ //console.log (myuser[mysym]);
 // console.log(myuser);
 myuser.email="rajesh@google.com"
 // Object.freeze(myuser)
