@@ -34,8 +34,26 @@ const users = [
     },
 ]
 // console.log(users[2].email);
-console.log(tinderuser);
+//console.log(tinderuser);
 // console.log(Object.keys(tinderuser));
 // console.log(Object.values(tinderuser));
 // console.log(Object.entries(tinderuser));
-console.log(tinderuser.hasOwnProperty('gender'));
+//console.log(tinderuser.hasOwnProperty('gender'));
+//________________de-structure and json & api's__________________-
+const course={
+    coursename:"js begginner",
+    price:"777",
+    instructorname:"farhana"
+}
+const{instructorname:mentor}=course//DE-STRUCTURE
+console.log(mentor);
+
+//{
+//       "idno":"1234",
+//     "name":"farhan",// API'S
+//     "age": 22
+// }
+[
+    {},
+    {}//API'S
+]
