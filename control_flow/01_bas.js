@@ -73,9 +73,9 @@ let useremail=[]
 //  if (useremail.length === 0) {
 //     console.log("Array is empty");
 //  }
-const emptyObj = {}
+const emptyobj = {}
 
-if (Object.keys(emptyObj).length === 0) {
+if (Object.keys(emptyobj).length === 0) {
     console.log("Object is empty");
 }
 
