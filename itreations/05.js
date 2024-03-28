@@ -25,5 +25,15 @@ const coding=[
     },
 ]
 coding.forEach((item) =>{
-    console.log(item.languageName);
+    //console.log(item.languageName);
 })
+
+const pcoding = ["js", "ruby", "java", "python", "cpp"]
+
+
+const values = pcoding.forEach( (item) => {
+    //console.log(item);
+    return item
+} )
+
+console.log(values);//for each loop can,t return values it returns undefined
