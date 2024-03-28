@@ -16,5 +16,12 @@ map.set('In',"india")
 map.set('us',"united states")
 //console.log(map);
 for (const [key,value] of map) {
-    console.log(key,':-',value);
+    //console.log(key,':-',value);
 }
+const myobj={
+    Fullname:"farhana",
+    age:23
+}
+for (const [key] of myobj) {
+    console.log(key);
+}//for of objects non itreable soo we use for in
